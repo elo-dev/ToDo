@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #303030;
+}
+
+.header__title-name{
+    color: #bdb7b7;
+    padding: 10px 0;
+}
+
+.main__title-name{
+    font-size: 55px;
+    margin-top: 70px;
+}
+
+.main__add-task{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.btn-primary{
+    margin-left: 40px;
+    padding: 0 15px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    font-size: 25px;
+    list-style: none;
+}
+
+.important{
+    font-weight: bold;
+    color: red;
+}
+
+.todo{
+    max-width: 530px;
+    margin-top: 20px;
+}
+
+.todo__item label{
+    padding-left: 10px;
+}
+
+.trash{
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+}
+
+.todo>li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.35);
+}
